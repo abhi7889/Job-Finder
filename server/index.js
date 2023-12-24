@@ -14,7 +14,9 @@ app.get('/',(req,res) =>{
         message:'All good!',
     })
 })
-
+app.get('/health', (req, res) => {
+    res.status(200).send("Server is up and running");
+});
 app.listen(process.env.port,()=>{
     mongoose.connect(process.env.MONGODB_URL)
     .then(()=>console.log('listening on port 4000'))
