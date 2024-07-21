@@ -1,0 +1,127 @@
+.container--main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5.5rem;
+    scroll-behavior: smooth;
+    width: 100vw;
+}
+.navbar
+{
+    align-items: center;
+    background: #ed5353;
+    border-radius: 0 0 60px 60px;
+    box-sizing: initial;
+    display: flex;
+    height: 123px;
+    justify-content: space-between;
+    width: 100vw;
+    
+}
+.heading
+{
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 144.02%;
+    padding-left: 30px;
+}
+.buttons
+{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+
+}
+.login-btn ,.register-btn
+{
+    border: 2px solid #fff;
+    background-color: #ed5353;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    height: 50px;
+    line-height: 144.02%;
+    text-align: center;
+    width: 150px;
+}
+.register-btn
+{
+    background: #fff;
+    color: #ed5353;
+}
+.job-search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-box
+{
+    display: flex;
+    box-shadow: 0 0 2.2rem .4rem rgba(255, 32, 32, .25);
+    flex-direction: column;
+    width: 700px;
+    height: 250px;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.input-box
+{
+    width: 400px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid #ed5353;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+}
+.skills-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.skills-dropdown
+{
+    background: #fff;
+    border: 2px solid #cecece;
+    border-radius: 12px;
+    color: #9c9c9c;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    height: 50px;
+    line-height: 1;
+    text-align: center;
+    width: 140px;
+   
+}
+.selected-skills
+{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: #9c9c9c;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.clear_btn
+{
+    margin-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #ed5353;
+}
